@@ -1,0 +1,55 @@
+header  {
+    margin-bottom: 42px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1140px;
+    
+    .navbar-brand {
+        margin-right:68px;
+    }
+    .link-area {
+        .nav-link{
+            padding: 0 !important;
+            font-size:14px;
+            &:not(:last-child) {
+                margin-right: 45px;
+            }
+        }
+    }
+    #language-dropdown {
+        background: none;
+        color: black;
+        border: 0;
+
+        svg {
+            font-size: 10px;
+        }
+
+        &::after {
+            display: none;
+        }
+    }
+    .dropdown-item{
+        &:focus,
+        &:active,
+        &:checked,
+        &:hover {
+            background:none;
+            color:black;
+        }
+    }
+    .tools-area {
+        .nav-link {
+            margin-left:30px;
+            &:last-child {
+                margin-left:27px;
+            }
+        }
+        .dropdown-menu {
+            min-width: -webkit-fit-content;
+            min-width: -moz-fit-content;
+            min-width: fit-content;
+            margin-left: 10px;
+        }
+    }
+}

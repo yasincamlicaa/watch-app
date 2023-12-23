@@ -1,0 +1,149 @@
+.footer {
+  padding: 61px 0;
+  background-color: #0f0f2b;
+
+  .logo {
+    margin-bottom: 81px;
+  }
+
+  .links {
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+
+      li {
+        margin-bottom: 20px;
+        width: calc(50% - 5px);
+
+        a {
+          text-decoration: none;
+          color: white;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+  .social-icons {
+    a {
+      color: white;
+      margin-right: 27px;
+      font-size: 20px;
+
+      &:last-child {
+        margin-right: auto;
+      }
+    }
+  }
+  .footer-box {
+    max-width: 540px;
+    padding-top: 48px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 52px;
+    background-color: #0b0b27;
+    .footer-box-top {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      margin-bottom:37px;
+    }
+  }
+  .contact-info a {
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+
+    p {
+      margin: 0;
+    }
+  }
+  .contact-form {
+    input{
+      background: transparent;
+      border: 0;
+      border-radius: 0;
+      color: white;
+      height: 46px;
+      border: 1px solid #4f4f62;
+      padding-left: 17px;
+      margin-bottom:20px;
+
+      &::-webkit-input-placeholder {
+        color: white;
+      }
+
+      &::-moz-placeholder {
+        color: white;
+      }
+
+      &:-ms-input-placeholder {
+        color: white;
+      }
+
+      &::-ms-input-placeholder {
+        color: white;
+      }
+
+      &::placeholder {
+        color: white;
+      }
+    }
+    textarea {
+      background: transparent;
+      border: 0;
+      border-radius: 0;
+      color: white;
+      height: 138px;
+      border: 1px solid #4f4f62;
+      padding-left: 17px;
+      margin-bottom:30px;
+      &::-webkit-input-placeholder {
+        color: white;
+      }
+      &::-moz-placeholder {
+        color: white;
+      }
+      &:-ms-input-placeholder {
+        color: white;
+      }
+      &::-ms-input-placeholder {
+        color: white;
+      }
+      &::placeholder {
+        color: white;
+      }
+    }
+    button {
+      font-size: 16px;
+      height: 46px;
+      width: 100%;
+      border-radius: 0;
+      background: white;
+      color: black;
+      border: 0;
+    }
+  }
+  .footer-text {
+    color: white;
+    font-size: 12px;
+  }
+}
